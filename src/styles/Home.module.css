@@ -1,0 +1,553 @@
+.container {
+  padding: 0 0;
+  width: 100%;
+}
+
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://layerdrops.com/appyng/images/banner-bg-1-1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: right;
+  padding-top: 100px;
+  padding-bottom: 310px;
+  align-items: center;
+}
+/*h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}*/
+/* Hero */
+.heroContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+}
+.bannerImage {
+  flex: 50%;
+}
+.bannerContent {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bannerTitle {
+  font-family: 'jost';
+  font-size: 70px;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 1em;
+  margin: 0;
+  margin-bottom: 25px;
+}
+.bannerTitle h3 {
+  font-family: 'jost';
+}
+.heroBtn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 30.5px;
+  background-color: #f8b426;
+  text-transform: uppercase;
+  color: #1b2143;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 20px 45px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+/*App Features*/
+
+.appfeaturesContainer {
+  padding-bottom: 110px;
+  padding-top: 120px;
+
+}
+
+.blockTitle {
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 70px;
+  text-align: center !important;
+  color: #1b2143;
+  font-size: 50px;
+  text-transform: capitalize;
+  line-height: 1.25em;
+}
+.flexCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.appFeatureImage {
+  object-fit: contain;
+}
+.iconWrapper {
+  width: 135px;
+  height: 135px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  perspective: 135px;
+  transform-style: preserve-3d;
+}
+
+.cardTitle {
+  font-size: 22px;
+  line-height: 34px;
+  font-weight: bold;
+  color: #1b2143;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-family: inherit;
+  text-align: center;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.cardText {
+  margin: 0;
+  color: #6d6d6d;
+  font-size: 20px;
+
+  line-height: 34px;
+  text-align: center;
+}
+
+/*Screen Shot Section*/
+.ScreenshotContainer {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10rem;
+}
+.mapImages {
+  display: flex;
+}
+
+/*Blog Section*/
+
+.blogContainer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #f5f5f5;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: auto;
+}
+.blogPosts {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 85%;
+  flex-wrap: wrap;
+  margin: auto;
+  gap: 2rem;
+}
+.Post {
+  display: flex;
+  flex-direction: column;
+  flex: 30%;
+}
+.postImage {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 5px;
+  height: 200px;
+  cursor: pointer;
+}
+.sectionBlogImg {
+  object-fit: contain;
+}
+.postDetails {
+  display: flex;
+  gap: 4px;
+  color: #f8b426;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+  width: 300px;
+}
+.blogBy {
+  color: #f8b426;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+}
+.blogTitle {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 600;
+  color: #1b2143;
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+.readMoreLink {
+  color: black;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 600;
+}
+
+/*Review*/
+.reviewsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+.reviewCards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.reviewContent {
+  display: flex;
+  max-width: 42%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: black;
+  padding: 2rem;
+  gap: 2rem;
+}
+.reviewColOne {
+  width: 20%;
+}
+.reviewImg {
+  object-fit: contain;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1rem;
+}
+.reviewColTwo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0.1rem;
+  justify-content: center;
+  padding-top: 1.5rem;
+}
+.reviewColTwo p {
+  margin: 0;
+  padding: 0;
+}
+.reviewerName {
+  font-weight: 700;
+}
+.reviewerTitle {
+  font-size: 15px;
+  font-style: italic;
+}
+.reviewerComment {
+  quotes: '"' '"' "'" "'";
+  font-style: italic;
+}
+.reviewerComment::before {
+  content: open-quote;
+}
+.reviewerComment::after {
+  content: close-quote;
+}
+
+/*Faq*/
+.faqContainer {
+  background-color: #fff5d6;
+  margin: 0;
+  /* padding: 4rem; */
+  margin-bottom: 7rem;
+}
+.faqTitle {
+  font-size: 40px;
+  line-height: 34px;
+  font-weight: bold;
+  color: black;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-family: inherit;
+  text-align: center;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-bottom: 1rem;
+}
+.faq {
+  width: 70%;
+  margin: auto;
+}
+.accordionFlex {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*Subscribe*/
+.subscribeForm {
+  width: 100%;
+  max-width: 700px;
+  height: 81px;
+  background-color: #f6f6f6;
+  border-radius: 40.5px;
+  position: relative;
+  display: block;
+  margin: auto;
+  margin-bottom: 5rem;
+}
+
+.subscribeBtn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  width: 51px;
+  height: 51px;
+  border-radius: 50%;
+  background-color: #f8b426;
+  text-align: center;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #1b2143;
+  font-size: 18px;
+  transition: all 0.4s ease;
+}
+.emailField {
+  border: none;
+  width: 500px;
+  height: 41px;
+  margin-top: 20px;
+  margin-left: 25px;
+  background-color: #f6f6f6;
+}
+
+.errorsMsg {
+  color: red;
+  font-size: 12px;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+/*footer */
+.payfamFooter {
+  background-image: url('https://layerdrops.com/appyng/images/banner-bg-1-1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  display: flex;
+  flex-direction: column;
+  color: #f6f6f6;
+  gap: 4em;
+  padding: 4rem 0 2rem 0;
+  flex-wrap: wrap;
+}
+
+.footerRowOne {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.footerRowOneColOne {
+  display: flex;
+  flex-direction: column;
+  flex: 40%;
+}
+.footerRowOneColTwo {
+  flex: 20%;
+}
+.displayFlex {
+  flex: 60%;
+  display: flex;
+}
+.footerAppStore {
+  display: flex;
+  gap: 0.2rem;
+}
+.footerWidgetLogo {
+  max-width: 20%;
+}
+.footerLogo {
+  object-fit: contain;
+}
+
+.footerRowOneColTwo h4 {
+  margin: 0;
+  padding: 0;
+  text-decoration: underline;
+}
+
+.footerWidgetText {
+  font-size: 18px;
+  line-height: 34px;
+  color: white;
+  font-weight: 600;
+  width: 300px;
+}
+.footerWidgetLinks {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 14px;
+  line-height: 34px;
+  color: white;
+  font-weight: 400;
+}
+.footerWidgetBtn {
+  width: 190px;
+  border-radius: 30.5px;
+  background-color: #fdfdfd;
+  color: #1b2143;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  cursor: text;
+  margin-bottom: 1rem;
+}
+.footerWidgetBtnText {
+  font-size: 16px;
+  line-height: 34px;
+  font-weight: 600;
+}
+
+.footerRowTwo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.footerSocials {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+/*footer End*/
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+@media only screen and (max-width: 992px) {
+  .reviewCards {
+    flex-direction: column;
+  }
+  .reviewContent {
+    max-width: 90%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .main {
+    background-image: linear-gradient(
+      -121deg,
+      #222c67 0%,
+      #2c3b8d 50%,
+      #384eb9 100%
+    );
+    min-height: 80vh;
+    padding-bottom: 5rem;
+  }
+  .heroContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .bannerImage {
+    width: 90%;
+    margin: auto;
+  }
+  .bannerContent {
+    padding-top: 2rem;
+    width: 90%;
+    margin: auto;
+    align-items: flex-start;
+  }
+  .bannerTitle {
+    font-size: 46px;
+  }
+  .blockTitle {
+    font-size: 38px;
+  }
+  /*Blog Section*/
+  .blogContainer {
+    padding-bottom: 20px;
+  }
+  /*Faq Section*/
+  .faqContainer {
+    padding-top: 2px;
+  }
+  /*ScreenShot*/
+  .ScreenshotContainer {
+    padding-bottom: 5rem;
+  }
+
+  /*Review On Mobile View*/
+  .reviewContent {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+  }
+  .reviewImg {
+    padding: 0;
+  }
+  .faq {
+    width: 100%;
+  }
+
+  .faqTitle {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

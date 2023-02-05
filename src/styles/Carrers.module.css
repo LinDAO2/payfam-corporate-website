@@ -1,0 +1,132 @@
+.carrersContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+.upperSection {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.upperSectionTitle {
+  font-size: 44px;
+  color: #1b2143;
+}
+.middleSection {
+  width: 100%;
+  background-color: #28347b;
+  color: #ffffff;
+  padding-top: 3rem;
+}
+.middleSectionTitle {
+  font-size: 50px;
+}
+.middleSectionInner {
+  width: 80%;
+  margin: auto;
+}
+.benefitCard {
+  display: flex;
+  flex-wrap: wrap;
+  color: black;
+  gap: 3rem;
+  padding-bottom: 6rem;
+}
+.benefitCardInner {
+  background-color: #ffffff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 1rem 1rem;
+  width: 45%;
+  border-radius: 10px;
+}
+
+.benefitCardheading {
+  color: black;
+}
+.benefitCardContent {
+  color: black;
+}
+.lastSection {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 5rem;
+}
+.lastSectionTitle {
+  font-size: 46px;
+  font-weight: 700;
+  color: #1b2143;
+  line-height: 54px;
+  margin-bottom: 0;
+}
+.lastSectionText {
+  width: auto;
+  color: #080707;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  opacity: 1;
+}
+.jobArrRows {
+  padding-top: 3rem;
+}
+.jobRow {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.3px dotted black;
+  align-items: center;
+  padding: 0;
+}
+.jobTitle {
+  width: 30%;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.jobLocation {
+  display: flex;
+  align-items: center;
+}
+.jobType {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.applyNow {
+  padding: 7px 20px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #28347b;
+  margin-bottom: 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+@media (max-width: 600px) {
+  .benefitCard {
+    display: flex;
+    flex-direction: column;
+  }
+  .benefitCardInner {
+    width: 80%;
+    margin: auto;
+  }
+  .jobRow {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .applyNow {
+    margin-bottom: 2rem;
+  }
+  .jobTitle {
+    width: 90%;
+  }
+}

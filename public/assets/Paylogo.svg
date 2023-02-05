@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="24"
+   height="24"
+   viewBox="0 0 132.29167 132.29167"
+   version="1.1"
+   id="svg5"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient26755">
+      <stop
+         style="stop-color:#373ae6;stop-opacity:1;"
+         offset="0"
+         id="stop26751" />
+      <stop
+         style="stop-color:#0081ff;stop-opacity:1;"
+         offset="1"
+         id="stop26753" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient22137">
+      <stop
+         style="stop-color:#ffd420;stop-opacity:1;"
+         offset="0"
+         id="stop22133" />
+      <stop
+         style="stop-color:#f9e969;stop-opacity:1;"
+         offset="1"
+         id="stop22135" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient26755"
+       id="linearGradient12322"
+       x1="125.30104"
+       y1="123.64675"
+       x2="183.40228"
+       y2="123.64675"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.74114283,0,0,0.74114283,-33.089286,-51.556552)" />
+    <linearGradient
+       xlink:href="#linearGradient22137"
+       id="linearGradient22131"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.74114283,0,0,0.74114283,-32.605843,-51.267897)"
+       x1="89.709686"
+       y1="207.34731"
+       x2="133.12769"
+       y2="207.34731" />
+  </defs>
+  <g
+     id="layer1">
+    <rect
+       style="fill:#047cfd;fill-opacity:1;stroke:none;stroke-width:0.967328;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect20432"
+       width="19.436222"
+       height="44.179951"
+       x="31.156126"
+       y="6.9371128"
+       ry="10.787602"
+       transform="matrix(0.99968897,-0.02493928,0.01896831,0.99982009,0,0)" />
+    <path
+       style="fill:url(#linearGradient12322);fill-opacity:1;stroke:none;stroke-width:0.70877;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m 66.1713,3.8325884 c -1.599193,0.126259 -4.867863,0.55428 -6.394614,1.0287313 0.128007,0.5293339 2.661778,0.5557136 3.080381,0.813053 11.578019,3.4955453 20.97196,12.5124513 24.371524,24.0839133 1.601101,5.156093 1.758532,10.678396 1.159236,16.012023 -1.758194,12.357994 -10.624675,23.146589 -22.107316,28.078652 -1.3799,0.624238 -3.713941,1.137913 -5.777371,2.394083 1.237881,0.306176 4.800189,-0.219152 6.208763,-0.170917 11.239463,0.09876 22.351858,-5.400927 29.02268,-14.459703 3.833117,-5.185384 6.464217,-11.392145 7.029867,-17.842297 0.0583,-4.349046 0.37457,-8.80404 -0.97377,-13.012441 C 99.035198,20.262245 91.348233,11.200226 81.371215,6.8960451 76.604778,4.7944459 71.379492,3.7425107 66.1713,3.8325884 Z"
+       id="path12172" />
+    <path
+       style="fill:#373ae6;fill-opacity:1;stroke:none;stroke-width:0.70877;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       d="M 59.533621,4.8900143 C 52.156518,6.5096425 45.448428,10.794485 40.535096,16.49582 c -5.657972,6.53275 -9.43599,12.729574 -8.402521,29.179158 2.983264,28.034619 2.055244,35.335319 -0.181196,70.699492 0.461686,-1.08046 0.506079,-2.69305 0.810546,-3.98427 1.824756,-9.76399 4.891574,-19.766894 11.601452,-27.336527 3.967393,-4.479646 9.414524,-7.64981 15.338812,-8.621874 0.608048,-0.06809 1.285698,-0.174399 1.582248,-0.730336 2.811293,-1.00282 5.714859,-1.835286 8.35195,-3.282712 C 81.160834,66.641461 88.914452,54.234377 89.182639,41.361902 89.586439,29.489297 83.652578,17.64687 73.889441,10.87252 69.654493,7.9141558 64.791461,5.7176058 59.68021,4.8848631 Z"
+       id="path12312" />
+    <path
+       style="fill:url(#linearGradient22131);fill-opacity:1;stroke:none;stroke-width:0.70877;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m 64.212646,78.423043 c -7.367528,0.324812 -14.283794,4.257809 -18.773737,10.035284 -6.15226,7.780021 -8.965737,17.603003 -10.588484,27.238183 -0.543992,3.56612 -0.970668,7.24954 -0.968547,10.80541 11.587301,-2.71699 21.689874,-11.0145 26.650265,-21.83181 4.086868,-8.126967 5.341824,-17.408824 5.528667,-26.359868 -0.616063,0.03764 -1.232108,0.07509 -1.848164,0.112801 z"
+       id="path22129" />
+  </g>
+</svg>
