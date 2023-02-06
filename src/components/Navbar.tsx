@@ -1,8 +1,26 @@
 import React, { useState } from "react";
-import { AppBar, Box, Button, IconButton, Stack, Toolbar } from "@mui/material";
+import {
+  AppBar,
+  Box,
+  Button,
+  IconButton,
+  Stack,
+  Toolbar,
+  useScrollTrigger,
+} from "@mui/material";
 import AppBrand from "./AppBrand";
 import { Close, Menu } from "@mui/icons-material";
 import { AnimatePresence, motion } from "framer-motion";
+
+interface Props {
+  /**
+   * Injected by the documentation to work in an iframe.
+   * You won't need it on your project.
+   */
+  window?: () => Window;
+  children: React.ReactElement;
+}
+
 const NavLinks = () => {
   return (
     <>
@@ -17,22 +35,22 @@ const NavLinks = () => {
       >
         Blogs
       </Button>
-      <Button href="/products" sx={{ color: "#fff" }}>
+      <Button href="/products.html" sx={{ color: "#fff" }}>
         Products
       </Button>
-      <Button href="/about" sx={{ color: "#fff" }}>
+      <Button href="/about.html" sx={{ color: "#fff" }}>
         About Us
       </Button>
-      <Button href="/careers" sx={{ color: "#fff" }}>
+      <Button href="/careers.html" sx={{ color: "#fff" }}>
         Careers
       </Button>
-      <Button href="/faqs" sx={{ color: "#fff" }}>
+      <Button href="/faqs.html" sx={{ color: "#fff" }}>
         FAQ
       </Button>
       <Button
-       href="https://app.payfam.io/session/login"
-       target="_blank"
-       rel="noreferrer"
+        href="https://app.payfam.io/session/login"
+        target="_blank"
+        rel="noreferrer"
         variant="contained"
         sx={{
           bgcolor: "#fff",
@@ -45,9 +63,9 @@ const NavLinks = () => {
         Login
       </Button>
       <Button
-       href="https://app.payfam.io/session/signup"
-       target="_blank"
-       rel="noreferrer"
+        href="https://app.payfam.io/session/signup"
+        target="_blank"
+        rel="noreferrer"
         variant="contained"
         sx={{
           bgcolor: "#fff",
@@ -64,16 +82,27 @@ const NavLinks = () => {
   );
 };
 
-const Navbar = () => {
+const Navbar = (props: Props) => {
   const [openMobileNav, setOpenMobileNav] = useState(false);
+
+  const { window } = props;
+  // Note that you normally won't need to set the window ref as useScrollTrigger
+  // will default to window.
+  // This is only being set here because the demo is in an iframe.
+  const trigger = useScrollTrigger({
+    disableHysteresis: true,
+    threshold: 0,
+    target: window ? window() : undefined,
+  });
 
   return (
     <>
       <AppBar
         component="nav"
+        // elevation={trigger ? 4 : 0}
         elevation={0}
         sx={{
-          bgcolor: "transparent",
+          bgcolor: trigger ? "#28347b" : "transparent",
         }}
       >
         {/* <Toolbar>
@@ -137,13 +166,13 @@ const Navbar = () => {
                 }}
                 sx={{
                   boxShadow: (theme) => theme.shadows[10],
-                  bgcolor: "#000",
+                  bgcolor: "#fff",
                 }}
               >
                 {openMobileNav ? (
-                  <Close sx={{ color: "#fff" }} />
+                  <Close sx={{ color: "#000" }} />
                 ) : (
-                  <Menu sx={{ color: "#fff" }} />
+                  <Menu sx={{ color: "#000" }} />
                 )}
               </IconButton>
               <AnimatePresence mode="wait">
